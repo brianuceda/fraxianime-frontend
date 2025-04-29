@@ -1,44 +1,35 @@
 {
-  "name": "jkanime",
-  "version": "0.0.0",
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test"
-  },
+  "name": "fraxianime-frontend",
+  "version": "0.1.0",
   "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
   "dependencies": {
-    "@angular/animations": "^17.0.0",
-    "@angular/common": "^17.0.0",
-    "@angular/compiler": "^17.0.0",
-    "@angular/core": "^17.0.0",
-    "@angular/forms": "^17.0.0",
-    "@angular/material": "^17.1.2",
-    "@angular/platform-browser": "^17.0.0",
-    "@angular/platform-browser-dynamic": "^17.0.0",
-    "@angular/router": "^17.0.0",
-    "@vercel/analytics": "^1.1.1",
-    "date-fns": "^3.3.1",
-    "lite-youtube-embed": "^0.3.2",
-    "rxjs": "~7.8.0",
-    "zone.js": "~0.14.2"
+    "@radix-ui/react-aspect-ratio": "^1.1.4",
+    "@radix-ui/react-separator": "^1.1.4",
+    "@radix-ui/react-slot": "^1.2.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.503.0",
+    "next": "14.2.28",
+    "next-themes": "^0.4.6",
+    "react": "^18",
+    "react-dom": "^18",
+    "tailwind-merge": "^3.2.0",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^17.0.10",
-    "@angular/cli": "^17.0.10",
-    "@angular/compiler-cli": "^17.0.0",
-    "@types/jasmine": "~5.1.0",
-    "autoprefixer": "^10.4.16",
-    "jasmine-core": "~5.1.0",
-    "karma": "~6.4.0",
-    "karma-chrome-launcher": "~3.2.0",
-    "karma-coverage": "~2.2.0",
-    "karma-jasmine": "~5.1.0",
-    "karma-jasmine-html-reporter": "~2.1.0",
-    "postcss": "^8.4.33",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.28",
+    "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "typescript": "~5.2.2"
+    "typescript": "^5"
   }
 }
